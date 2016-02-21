@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="spoofmode_switch"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations" />
+
+    <EditTextPreference
+        android:dependency="spoofmode_switch"
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="spoofed_user_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Spoofed userId" />
+
+    <EditTextPreference
+        android:dependency="spoofmode_switch"
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="spoofed_username"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Spoofed username" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="spoofmode_location_switch"
+        android:summary="Makes this app act as if it where in Classroom Unit 1"
+        android:title="Spoof CS121 Location" />
+
+</PreferenceScreen>

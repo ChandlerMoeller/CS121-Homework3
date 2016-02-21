@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">homework3</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="action_sign_in">Start Chat</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="one">one</string>
+    <string name="two">two</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable Spoof Mode</string>
+    <string name="pref_description_social_recommendations">Spoof Mode allows the user to spoof other user ids and usernames by clicking on a message
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name"></string>
+    <string name="title_activity_main2">Chat</string>
+
+</resources>

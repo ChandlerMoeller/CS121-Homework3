@@ -1,0 +1,18 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="cs121.homework3.Settings.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="cs121.homework3.Settings.SettingsActivity$SpooferPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Spoofer" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+</preference-headers>
